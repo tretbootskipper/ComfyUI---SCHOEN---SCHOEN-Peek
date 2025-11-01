@@ -29,13 +29,7 @@ Start your Workflow manual or live:
 
 Your final folder structure should look like this:
 
-ComfyUI/
-└── custom_nodes/
-└── SCHOEN/
-├── init.py
-├── SchoenPeek.py
-└── web/
-└── schoen_peek_frontend.js
+ComfyUI/custom_nodes/SCHOEN/ init.py + SchoenPeek.py + web/ schoen_peek_frontend.js
 
 4.  **Install Dependencies:** This node requires `opencv-python`. Open a command line/terminal in your ComfyUI directory and install it into your Python environment:
     ```bash
